@@ -10,11 +10,14 @@ import spacy
 from tensorflow.keras.preprocessing.text import Tokenizer
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 import numpy as np
-from sklearn.preprocessing import MinMaxScaler
 import base64
+import inflect
 
 # Load the pre-trained model (replace with the model you downloaded)
 nlp = spacy.load("en_core_web_sm")
+
+# Initialize inflect engine
+p = inflect.engine()
 
 # Load model
 model1 = load_model("./model_1.h5")
