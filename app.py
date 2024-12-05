@@ -17,7 +17,7 @@ import base64
 nlp = spacy.load("en_core_web_sm")
 
 # Load model
-model1 = load_model(r"C:\Users\ADMIN\Documents\bhavik\ui development\model_1.h5")
+model1 = load_model("./model_1.h5")
 
 api_key = "QUl6YVN5Q1RHOUlPUlpaQzY4ZEdJQWF3cVNzOEJGNnZYUmp0VEZJ"
 # Configure the generative AI model with the Google API key
