@@ -64,7 +64,7 @@ namex==0.0.8
 narwhals==1.14.2
 nlp==0.4.0
 nltk==3.9.1
-numpy>=2.0,<3.0
+numpy
 opt_einsum==3.4.0
 optree==0.13.1
 packaging==24.2
@@ -105,19 +105,19 @@ spacy-loggers==1.0.5
 srsly==2.4.8
 streamlit==1.40.2
 tenacity==9.0.0
-tensorboard==2.18.0
+tensorboard
 tensorboard-data-server==0.7.2
 
 tensorflow-hub==0.16.1
 
 tensorflow_intel==0.0.1
 
-tensorflow==2.13.0
-tensorflow-io-gcs-filesystem==0.30.0
+tensorflow
+tensorflow-io-gcs-filesystem
 
 
-termcolor==2.5.0
-tf_keras==2.18.0
+termcolor
+tf_keras
 thinc==8.3.2
 threadpoolctl==3.5.0
 toml==0.10.2
@@ -125,7 +125,7 @@ tornado==6.4.2
 tqdm==4.67.1
 typeguard==4.4.1
 typer==0.15.0
-typing-extensions>=3.6.6,<4.6.0
+typing-extensions
 tzdata==2024.2
 uritemplate==4.1.1
 urllib3==2.2.3
