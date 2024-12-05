@@ -1,0 +1,4 @@
+[tool.poetry]
+dependencies = [
+    "python = '3.11.3'"  # Python version
+]
