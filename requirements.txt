@@ -110,7 +110,7 @@ tensorboard-data-server==0.7.2
 
 tensorflow-hub==0.16.1
 
-tensorflow_intel==2.18.0
+tensorflow_intel==0.0.1
 
 tensorflow==2.13.0
 tensorflow-io-gcs-filesystem==0.30.0
