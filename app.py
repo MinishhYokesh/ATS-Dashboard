@@ -219,7 +219,7 @@ if submit_button:
         print(predictions)
 
         # Display the predictions in a more attractive format (use a table or chart)
-        prediction_df = pd.DataFrame(round((predictions*100),2), columns=["Predicted ATS Score"])
+        prediction_df = pd.DataFrame(predictions*100, columns=["Predicted ATS Score"])
         st.write(prediction_df)
 
          # Provide a download button for the result
